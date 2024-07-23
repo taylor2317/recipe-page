@@ -1,0 +1,124 @@
+body{
+    color: hsl(30, 10%, 34%);
+}
+
+@font-face {
+    font-family: Desc-Text;
+    src: url(fonts/outfit/static/Outfit-Regular.ttf);}
+@font-face {
+    font-family: Bold-Inst;
+    src: url(fonts/outfit/static/Outfit-Black.ttf);}
+@font-face {
+    font-family: Prep;
+    src: url(fonts/outfit/Outfit-VariableFont_wght.ttf);}
+@font-face {
+    font-family: Title;
+    src: url(fonts/young-serif/YoungSerif-Regular.ttf);
+  }
+
+.tile{
+    background-color: white;
+    position: relative;
+    width: 50vw;
+    left:25vw;
+    top:5vh;
+    border-radius: 1vw;
+}
+
+img{
+    width: 47vw;
+    padding:1.5vw;
+    border-radius: 2vw;
+}
+
+.tile-content{
+    padding-left:2vw;
+    padding-right:2vw;
+}
+
+.title{
+    font-size: 2vw;
+    font-family: title;
+    color: hsl(24, 5%, 18%);
+}
+
+.desc{
+    font-family: Desc-Text;
+    font-size: 1.1vw;
+}
+
+.prep{
+    width: 45vw;
+    background-color: hsl(330, 100%, 98%);
+    padding: 1vw;
+    border-radius: 2vw;
+}
+
+.prep-title{
+    color:hsl(332, 51%, 32%);
+    font-family: prep;
+    font-weight: bold;
+    font-size: 1.25vw;
+    margin-left: 1.5vw;
+}
+
+.prep-text{
+    font-family: prep;
+    font-size: 1.1vw;
+    margin-top: -0.5vw;
+    margin-bottom: -0.5vw;
+}
+
+ul span, ol span{
+    margin-left: 1.5vw;
+    line-height: 2.5vw;
+    font-size: 1.1vw;
+    text-indent: 10vw;
+}
+
+.subtitle{
+    color: hsl(14, 45%, 36%);
+    padding-top: 3vw;
+    font-family: title;
+    font-size: 1.75vw;
+    margin-left: 1vw;
+}
+
+.bodyText{
+    margin-left: -1vw;
+    margin-top: -1vw;
+    font-family: desc-text;
+    font-size: 1.1vw;
+}
+
+hr{
+    border:hsl(30, 18%, 87%) solid 0.01vw;
+    list-style-position: inside;
+}
+
+li::marker{
+    color:hsl(14, 45%, 36%);
+    font-family: prep;
+    font-weight: bold;
+}
+
+p{
+    margin-left: 1vw;
+}
+
+table{
+    width: 97%;
+    text-align: left;
+    margin-left: 1vw;;
+}
+
+td,th {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    font-size: 1.1vw;
+    padding:1vw;
+    padding-left: 3vw;;
+}
+
+th{
+    color:hsl(14, 45%, 36%)
+}
